@@ -1,0 +1,13 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-color: gray;}
+.text{
+	border:solid white;
+	padding-right:20px;
+	position:absolute;
+	width:80%;
+	max-width:600px;
+	padding:20px;
+	left:350px;
+}

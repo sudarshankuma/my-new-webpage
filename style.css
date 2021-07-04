@@ -1,0 +1,43 @@
+*{
+	background-color:gray;
+}
+.hompage{
+	position:absolute;
+	width:80%;
+	max-width:600px;
+	padding:30px 40px;
+	transform:translate(-50% -50%);
+}
+h1{
+	padding-bottom:40px;
+	padding:10px;
+	background-color:gray;
+	color:white;
+	text-align:center;
+}
+nav{
+	
+	margin-top:10px;
+	overflow:hidden;
+}
+nav a{
+	float:left;
+	padding:10px 105px;
+	text-decoration:none;
+	font-size: 20px;
+	color:black;
+	background-color: white;
+
+}
+nav a:hover{
+	background-color:gray;
+}
+.name{
+	font-size:40px;
+}
+.heading2{
+	font-size:30px;
+}
+.heading3{
+	font-size:20px;
+}
