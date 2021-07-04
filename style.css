@@ -1,21 +1,26 @@
 *{
 	background-color:gray;
 }
+body{
+	margin:0;
+	padding:0;
+	background-color:gray;
+	background-size: cover;
+}
 .hompage{
 	position:absolute;
 	width:80%;
 	max-width:600px;
 	padding:30px 40px;
-	transform:translate(-50% -50%);
+	transform:translate(-50% -50%);------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 }
 h1{
 	padding-bottom:40px;
 	padding:10px;
 	background-color:gray;
 	color:white;
-	text-align:center;
-}
-nav{
+		text-align:center;}
+		nav{
 	
 	margin-top:10px;
 	overflow:hidden;
@@ -32,6 +37,29 @@ nav a{
 nav a:hover{
 	background-color:gray;
 }
+
+.contact-form{
+	width:80%;
+	max-width:600px;
+	background:red;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	padding:30px 40px;
+	box-sizing: border-box;
+	border-radius:8px;
+	text-align:center;
+}
+.texte label{
+	color:solid black;
+	font-size:20px;
+}
+.textf {
+	display:block;
+	color:white;
+	font-size:20px;
+}
 .name{
 	font-size:40px;
 }
@@ -40,4 +68,10 @@ nav a:hover{
 }
 .heading3{
 	font-size:20px;
+}
+img{
+	width:70%;
+	height:30%;
+	background-size:cover;
+	background-repeat:no-repeat;
 }
